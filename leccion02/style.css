@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+.rojo{
+    border: 10px solid firebrick;
+    /* background-color: firebrick; */
+}
+
+.rosa{
+    border: 10px dashed rgb(255, 105, 180);
+    /* background-color: hotpink; */
+
+}
+
+.amarillo{
+    border: 10px double #ffd700;
+    /* background-color: gold; */
+}
+
+.violeta{
+    border: 10px groove blueviolet ;
+    /* background-color: blueviolet; */
+}
+
+.verde{
+    border: 10px ridge lime;
+    /* background-color: lime; */
+}
+
+.azul{
+    border: 10px dotted hsl(174, 72%, 56%);
+    /* background-color: turquoise; */
+}
+
+/* .texto-blanco{
+    color: white;
+} */

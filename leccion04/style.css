@@ -1,0 +1,51 @@
+*{
+    background-color: #2c2b2b;
+}
+
+h1{
+    text-align: center;
+    color: #e63946;
+}
+.caja{
+    padding: 10px;
+    color: white;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 30px;
+    float: left;
+}
+
+.rojo{
+    background-color: crimson;
+}
+
+.rosa{
+    background-color: deeppink;
+}
+
+.rgb{
+    background-color: rgb(250, 128, 114);
+}
+
+.rgba{
+    background-color: rgba(250, 128, 114, .5);
+
+}
+
+.hex{
+    background-color: #0091ad;
+}
+
+.hex-transparente{
+    background-color: #0090ad79;
+}
+
+.hsl{
+    background-color: hsl(250, 60%, 70%);
+}
+
+.hsla{
+    background-color: hsla(250, 60%, 70%, .7);
+}

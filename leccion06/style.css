@@ -1,0 +1,37 @@
+h1{
+    color: #ef476f;
+    background-color: beige;
+    text-align: center;
+    /* Convierte todo el texto en mayusculas */
+    text-transform: uppercase;
+    /* sombreado: hoff voff blur color */
+    text-shadow: 2px 2px 2px #ced4da;
+    font-size: 50px;
+    /* separacion de caracteres */
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-decoration: overline underline;
+}
+
+.caja{
+    padding: 15px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.parrafo{
+    text-align: justify;
+    /* Cambia la direccion de lectura del texto: ltr - left to right, rtl - rigth to left */
+/*     direction: rtl; */
+    text-indent: 20px;
+    /* Separacion entre lineas */
+    line-height: 2;
+    /* Cambia el comportamiento del texto en funcion a como se envuelve */
+    white-space: normal;
+    text-shadow: 2px 2px 1px #939699;
+}
+

@@ -1,0 +1,24 @@
+/* Selector universal */
+*{
+    background-color: ghostwhite;
+    color: darkblue;
+}
+#titulo{
+    color: crimson; 
+    text-align: left;
+    font-size: 50px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.texto-grande{
+    font-size: 20px;
+}
+
+/* Solo se aplicara a elementos div con clase center */
+div.center{
+    text-align: center;
+
+}

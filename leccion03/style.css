@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+div{
+    padding: 10px;
+    border: 0 solid #457b9d;
+    /* Este marign hara que el elemento se centre automaticamente */
+    margin: 20px;
+    margin-left: 150px;
+    background-color: wheat;
+    width: 300px;
+    /* max width indica que el ancho del elemento no puede pasar de la cantidad indicada, si se pasa lo redimensiona para caber en pantalla hasta que sea demasiado pequeño */
+    max-width: 300px;
+    /* Outline se encuentra entre el margen y el borde */
+    /* outline: 10px solid #a8dadc;
+    outline-offset: 10px; */
+    /* El padding se encuentra entre el borde y el contenido */
+    padding: 10px 5px;
+    /* Box sizing delimita el ancho total de la caja tomando en cuenta los valores del padding y border, aun asi el margin lo cuenta */
+    box-sizing: border-box;
+}
+
+/* p.interno{
+    /* Heredara el margen del elemento padre, en este caso, el div 
+    margin-left: inherit;
+} */

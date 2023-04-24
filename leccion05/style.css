@@ -1,0 +1,14 @@
+body{
+    background-color: dodgerblue;
+    background-image: url("img/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 0;
+    height: 100vw;
+    width: 100vh;
+}
+
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}

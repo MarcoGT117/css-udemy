@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    color: red;
+}
+
+div{
+    width: 50%;
+    border: 3px solid firebrick;
+    text-align: center;
+    color: crimson;
+    margin: 0 auto;
+}
+
+.estatico{
+    position: static;
+}
+
+.relativo{
+    position: relative;
+    top: -1rem;
+    left: 8rem;
+}
+
+.fijado{
+    position: fixed;
+    top: 290px;
+    left: 35%;
+}
+
+.absoluto{
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+.grande{
+    width: 500px;
+    height: 300px;
+    max-width: 300px;
+}

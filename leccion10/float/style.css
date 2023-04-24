@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+
+div.contenedor {
+  height: 100px;
+  width: 30%;
+  overflow: auto;
+}
+
+div.contenedor.flotado {
+    float: left;
+}
+
+div.contenedor.flotado.contenedor1 {
+    border: 3px dashed greenyellow;
+}
+
+div.contenedor.flotado.contenedor2 {
+    border: 3px dashed cornflowerblue;
+    float: right;
+}
+
+div.contenedor.contenedor3 {
+    border: 3px dashed grey;
+    margin: auto;
+    clear: both;
+}
