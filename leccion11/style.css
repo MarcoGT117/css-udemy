@@ -1,0 +1,32 @@
+h1{
+    color: #e63946;
+    text-align: center;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+}
+
+div.contenedor.descendiente p{
+    background-color: #fdffb6;
+}
+
+/* > Indica que solo se tomaran hijos directos */
+div.contenedor.hijo > p{
+    background-color: #ffc6ff;
+}
+
+/* + Indica que solo se tomaran los elementos p despues de las calses indicadas */
+div.contenedor.adyacente + p{
+    background-color: #caffbf;
+}
+
+/* ~  indica que se aplicara el estilo a todos los elementos tipo p que esten al mismo nivel del div */
+div.contenedor.hermano ~ p{
+    background-color: #9bf6ff;
+}

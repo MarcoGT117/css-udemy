@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    color: #e63046;
+    text-shadow: 2px 2px 2px #a8dadc;
+    font-size: 39px;
+}
+
+div.contenedor{
+    display: flex;
+    background-color: #560bad;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* Combina direction y wrap */
+    flex-flow: row wrap;
+    /* Alinea los elementos */
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    height: 300px;
+    /* Alineacion horizontal */
+    align-items: center;
+    /* Alineacion vertical */
+    align-content: center;
+}
+
+div.contenedor > p{
+    color: aliceblue;
+    background-color: #4895ef;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px rgb(167, 166, 182);
+}
+
+p.orden-1{
+    /* Modifica el orden en que se muestran los elementos del flexbox, por default es 0 */
+    order: 1;
+}
+
+p.orden-2{
+    order: 1;
+}
+
+p.orden-3{
+    order: 1;
+}
